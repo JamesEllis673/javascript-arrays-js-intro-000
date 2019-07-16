@@ -25,3 +25,25 @@ function destructivelyAddElementToEndOfArray (array, element) {
 function accessElementInArray (array, index){
   return (array[index])
 }
+
+function removeElementFromBeginningOfArray (array) {
+  var newArray = array
+  newArray.shift()
+  return (newArray)
+}
+
+function destructivelyRemoveElementFromBeginningOfArray (array) {
+  array.shift()
+  return (array)
+}
+
+function removeElementFromEndOfArray (array) {
+  var newArray = array
+  newArray.pop()
+  return (newArray)
+}
+
+function destructivelyRemoveElementFromEndOfArray (array) {
+  array.pop()
+  return (array)
+}
